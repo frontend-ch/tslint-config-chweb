@@ -1,10 +1,10 @@
 {
-  "name": "tslint-config-chweb",
+  "name": "@changhong-fe/tslint-config-chweb",
   "version": "0.1.0",
   "description": "tslint rules for changhong frontend team.",
   "main": "index.js",
   "files": [
-    "./lib",
+    "lib",
     "index.js"
   ],
   "scripts": {
