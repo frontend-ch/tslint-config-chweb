@@ -2,7 +2,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as glob from 'glob';
 
-const allRuleTests = glob.sync(path.resolve(__dirname, '../tests/*/'));
+const allRuleTests = glob.sync(path.resolve(__dirname, '../tests/*/') + '/');
+
 let rules: { [key: string]: any } = {};
 let requiresTypeInfo: { [key: string]: any } = {};
 
@@ -19,7 +20,9 @@ allRuleTests.forEach(rulePath => {
         }
       }
     }
-  } catch (error) {}
+  } catch (error) {
+    console.error(error);
+  }
 });
 
 console.log('These rules require type info: ');
