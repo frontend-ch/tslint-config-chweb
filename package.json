@@ -1,6 +1,6 @@
 {
   "name": "@changhong-fe/tslint-config-chweb",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "tslint rules for changhong frontend team.",
   "main": "index.js",
   "files": [
@@ -13,7 +13,8 @@
     "build:src": "tsc -p .",
     "clean": "rimraf ./lib",
     "test": "jest",
-    "lint": "tslint -p . -c tslint.js"
+    "lint": "tslint -p . -c tslint.js",
+    "prepublishOnly": "yarn build"
   },
   "keywords": [
     "tslint",

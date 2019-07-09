@@ -1,6 +1,6 @@
+import * as Lint from 'tslint';
 import { isLabeledStatement } from 'tsutils';
 import * as ts from 'typescript';
-import * as Lint from 'tslint';
 
 export class Rule extends Lint.Rules.AbstractRule {
   /* tslint:disable:object-literal-sort-keys */
@@ -16,7 +16,7 @@ export class Rule extends Lint.Rules.AbstractRule {
     options: null,
     optionExamples: [true],
     type: 'functionality',
-    typescriptOnly: false
+    typescriptOnly: false,
   };
   /* tslint:enable:object-literal-sort-keys */
 

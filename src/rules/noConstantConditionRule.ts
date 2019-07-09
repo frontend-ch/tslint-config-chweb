@@ -1,5 +1,5 @@
-import * as ts from 'typescript';
 import * as Lint from 'tslint';
+import * as ts from 'typescript';
 
 function isAssignmentToken(token: ts.Node) {
   return token.kind >= ts.SyntaxKind.FirstAssignment && token.kind <= ts.SyntaxKind.LastAssignment;
@@ -25,10 +25,10 @@ export class Rule extends Lint.Rules.AbstractRule {
       type: 'object',
       properties: {
         checkLoops: {
-          type: 'boolean'
-        }
+          type: 'boolean',
+        },
       },
-      additionalProperties: false
+      additionalProperties: false,
     },
     optionExamples: [
       Lint.Utils.dedent`
@@ -36,10 +36,10 @@ export class Rule extends Lint.Rules.AbstractRule {
         `,
       Lint.Utils.dedent`
         "${RULE_NAME}": [true, { "checkLoops": false }]
-        `
+        `,
     ],
     typescriptOnly: false,
-    type: 'functionality'
+    type: 'functionality',
   };
 
   public apply(sourceFile: ts.SourceFile): Lint.RuleFailure[] {
@@ -48,8 +48,9 @@ export class Rule extends Lint.Rules.AbstractRule {
   }
 }
 
+// tslint:disable-next-line:max-classes-per-file
 class NoConstantConditionWalker extends Lint.RuleWalker {
-  private checkLoops = true;
+  private readonly checkLoops: boolean = true;
 
   constructor(sourceFile: ts.SourceFile, options: Lint.IOptions) {
     super(sourceFile, options);
