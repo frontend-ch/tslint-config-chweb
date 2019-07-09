@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "align": [true, "arguments", "elements", "members", "parameters", "statements"],
+    "indent": [true, "spaces", 2]
+  }
+}

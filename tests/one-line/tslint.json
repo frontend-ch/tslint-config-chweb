@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "one-line": [true, "check-catch", "check-finally", "check-else", "check-open-brace"]
+  }
+}

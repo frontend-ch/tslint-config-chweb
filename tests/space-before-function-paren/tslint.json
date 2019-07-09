@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "space-before-function-paren": [
+      true,
+      { "named": "never", "asyncArrow": "always", "constructor": "never", "method": "never" }
+    ]
+  }
+}

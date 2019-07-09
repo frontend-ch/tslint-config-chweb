@@ -1,0 +1,2 @@
+export const vertyLongString =
+  '123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer123adf23r4vvafer';

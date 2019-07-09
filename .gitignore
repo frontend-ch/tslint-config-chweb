@@ -1,0 +1,4 @@
+node_modules/
+tests/**/bad.js
+tests/**/good.js
+lib/
