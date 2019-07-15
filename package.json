@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-chweb",
-  "version": "0.1.2-beta",
+  "version": "0.1.2",
   "description": "tslint rules for Disciple frontend team.",
   "main": "index.js",
   "files": [

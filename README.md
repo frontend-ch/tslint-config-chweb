@@ -27,7 +27,7 @@ npm i tslint-config-chweb -D
 
 ## 规则详情
 
-[规则详情](./docs/tslint-rules.md)
+[TypeScript 代码风格指南](./docs/tslint-rules.md)
 
 ## 格式化配置
 
