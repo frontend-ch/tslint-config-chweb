@@ -1,5 +1,5 @@
 {
   "rules": {
-    "no-void-expression": true
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"]
   }
 }
