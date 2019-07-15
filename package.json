@@ -1,7 +1,7 @@
 {
-  "name": "@changhong-fe/tslint-config-chweb",
+  "name": "tslint-config-chweb",
   "version": "0.1.2-beta",
-  "description": "tslint rules for changhong frontend team.",
+  "description": "tslint rules for Disciple frontend team.",
   "main": "index.js",
   "files": [
     "lib",
