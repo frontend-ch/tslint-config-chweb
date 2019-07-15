@@ -1,11 +1,11 @@
 import * as fs from 'fs';
-import * as path from 'path';
 import * as glob from 'glob';
+import * as path from 'path';
 
 const allRuleTests = glob.sync(path.resolve(__dirname, '../tests/*/') + '/');
 
-let rules: { [key: string]: any } = {};
-let requiresTypeInfo: { [key: string]: any } = {};
+const rules: { [key: string]: any } = {};
+const requiresTypeInfo: { [key: string]: any } = {};
 
 allRuleTests.forEach(rulePath => {
   const lintConfigPath = `${rulePath}/tslint`;
@@ -21,6 +21,7 @@ allRuleTests.forEach(rulePath => {
       }
     }
   } catch (error) {
+    // tslint:disable:no-console
     console.error(error);
   }
 });
