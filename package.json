@@ -1,6 +1,6 @@
 {
   "name": "@changhong-fe/tslint-config-chweb",
-  "version": "0.1.2",
+  "version": "0.1.2-beta",
   "description": "tslint rules for changhong frontend team.",
   "main": "index.js",
   "files": [
@@ -21,7 +21,7 @@
     "typescript",
     "codestyle"
   ],
-  "author": "",
+  "author": "Nick <tick_lin@sina.com>",
   "license": "MIT",
   "peerDependencies": {
     "tslint": "^5.1.0",
