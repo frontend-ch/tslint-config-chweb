@@ -29,6 +29,27 @@ npm i tslint-config-chweb -D
 
 [TypeScript 代码风格指南](./docs/tslint-rules.md)
 
+## VSCode 插件
+
+### [vscode-typescript-tslint-plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)（推荐）
+
+- 微软官方出品
+- 基于 TypeScript server，支持需要 Type Info 的规则
+- 更高效
+
+缺点：
+
+- 有时候不太稳定
+
+### [vscode-tslint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+
+- 已经过长时间使用，稳定性高
+
+缺点：
+
+- 不支持 Type Info 的规则
+- `vscode-typescript-tslint-plugin`发布后，已声明被废弃，不再维护
+
 ## 格式化配置
 
 ### prettier
