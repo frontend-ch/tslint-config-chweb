@@ -146,7 +146,7 @@
 
 - **no-tautology-expression** - 禁止将两个完全一样的变量或字面量做比较，如 `'1' === '1'`, `foo === foo`, `1 > 1`。
 
-<!-- - **no-this-assignment** - 禁止将 `this` 赋值给其他变量，但允许对 `this` 进行解构赋值。 -->
+- **no-this-assignment** - 禁止将 `this` 赋值给其他变量，但允许对 `this` 进行解构赋值。
 
 <!-- - **no-unbound-method** - 调用实例方法时，禁止在实例作用域外调用方法，否则应当显示 `bind` 方法的实例以保证 `this` 指向正确。 -->
 
@@ -164,7 +164,7 @@
 
 - **no-var-keyword** - 禁止使用 `var` 指令，应该使用 `let` 和 `const`。
 
-- **no-void-expression** - 禁止在表达式中使用 `void` 类型的值。
+- **no-void-expression** - 关闭此规则
 
 <!-- - **prefer-conditional-expression** - 能使用条件表达式(三元运算符)的时候，尽量不使用 `if ... else` 。 -->
 
