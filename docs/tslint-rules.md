@@ -186,7 +186,7 @@
 
 - **triple-equals** - 除了与 `null` 比较外，必须使用 `===` 或 `!==` ，禁止使用 `==` 或 `!=`，。
 
-<!-- - **typeof-compare** - typeof 表达式比较的对象必须是`undefined`,`object`,`boolean`,`number`,`string`,`function`或`symbol`。 -->
+- **typeof-compare** - 关闭此规则，`tsc` 自带了此功能。
 
 <!-- - **unnecessary-constructor** - 禁止空的构造函数。 -->
 
