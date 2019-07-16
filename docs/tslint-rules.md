@@ -110,7 +110,7 @@
 
 <!-- - **no-floating-promises** - 本规范关闭此规则。 -->
 
-<!-- - **no-for-in-array** - 本规范关闭此规则。 -->
+- **no-for-in-array** - 禁止对数组使用 `for-in` 来遍历元素。[详情](./tslint-rules-details/no-for-in-array.md)
 
 <!-- - **no-implicit-dependencies** - 本规范关闭此规则。 -->
 
