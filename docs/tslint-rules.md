@@ -142,7 +142,7 @@
 
 <!-- - **no-submodule-imports** - 禁止导入子模块。 -->
 
-<!-- - **no-switch-case-fall-through** - 本规范关闭此规则。 -->
+- **no-switch-case-fall-through** - `switch` 的 `case` 必须 `return` 或 `break`
 
 - **no-tautology-expression** - 禁止将两个完全一样的变量或字面量做比较，如 `'1' === '1'`, `foo === foo`, `1 > 1`。
 
